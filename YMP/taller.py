@@ -1,7 +1,7 @@
-Vocales = ["a","e","i","o","u"]
+Vocales = ["a","e","i","o","u",]
 contador_vocales = {}
-Texto = input('Ingresa una cadena de texto: ').lower()
-vocal = input("Cual es la vocal por la que deseas preguntar? ").lower()
+Texto = input("Ingrese una cadena de texto: ").lower()
+Elegir = input("Por cual vocal deseas preguntar: ")
 for letra in Texto:
     if letra in Vocales:
         if letra in contador_vocales:
@@ -9,8 +9,7 @@ for letra in Texto:
         else:
             contador_vocales[letra] = 1
 
-if vocal in contador_vocales:
-    print(f"La vocal '{vocal}' se repitió {contador_vocales[vocal]} veces.")
+if Elegir in contador_vocales:
+    print(f"La vocal {Elegir} se repitio {contador_vocales[Elegir]}")
 else:
-    print(f"La vocal '{vocal}' no aparece en el texto.")
-
+    print(f"La vocal '{Elegir}' no se encuentra en el texto.")
