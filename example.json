@@ -1,0 +1,159 @@
+{
+  "plataforma": "Netflix",
+  "pais": "Colombia",
+  "usuarios": [
+    {
+      "usuario_id": 1001,
+      "nombre_completo": "Yeison Hincapié Castro",
+      "email": "yeisonhincapie13@gmail.com",
+      "fecha_registro": "2023-05-15",
+      "Contraseña": "Yhincapie1234",
+      "telefono": "+57 300 1234567",
+      "fecha_nacimiento": "1999-01-01",
+      "suscripcion": {
+        "tipo_plan": "Premium",
+        "precio_mensual": 38900,
+        "fecha_inicio": "2023-05-15",
+        "metodo_pago": "Tarjeta de crédito",
+        "renovacion_automatica": false,
+        "fecha_vencimiento": "2025-05-15",
+        "estado": "Activo"
+
+      },
+      "dispositivos": [
+        {
+          "dispositivo_id": "D001",
+          "tipo": "Smart TV",
+          "marca": "Samsung",
+          "modelo": "QLED 55\"",
+          "fecha_ultimo_acceso": "2025-08-10T19:45:00Z",
+          "ubicacion": "Medellín, Colombia"
+        },
+        {
+          "dispositivo_id": "D002",
+          "tipo": "PC",
+          "marca": "Dell",
+          "modelo": "Inspiron 15",
+          "fecha_ultimo_acceso": "2025-08-11T21:10:00Z",
+          "ubicacion": "Medellín, Colombia"
+        }
+      ],
+      "perfiles": [
+        {
+          "perfil_id": 1,
+          "nombre": "Yanier",
+          "idioma_preferido": "Español",
+          "contenido_favorito": [201, 203],
+          "historial_visualizacion": [
+            {
+              "contenido_id": 201,
+              "titulo": "Stranger Things",
+              "tipo": "Serie",
+              "temporada": 4,
+              "capitulo": 3,
+              "fecha_visto": "2025-08-10T20:15:00Z",
+              "progreso": "100%",
+              "dispositivo_usado": "Smart TV"
+            },
+            {
+              "contenido_id": 203,
+              "titulo": "El Juego del Calamar",
+              "tipo": "Serie",
+              "fecha_visto": "2025-08-09T18:00:00Z",
+              "progreso": "75%",
+              "dispositivo_usado": "Teléfono"
+            }
+          ]
+        },
+        {
+          "perfil_id": 2,
+          "nombre": "Yeison",
+          "idioma_preferido": "Inglés",
+          "contenido_favorito": [202],
+          "historial_visualizacion": [
+            {
+              "contenido_id": 202,
+              "titulo": "La Casa de Papel",
+              "tipo": "Serie",
+              "fecha_visto": "2025-08-11T21:00:00Z",
+              "progreso": "100%",
+              "dispositivo_usado": "PC"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "catalogo": [
+    {
+      "contenido_id": 201,
+      "titulo": "Stranger Things",
+      "tipo": "Serie",
+      "anio": 2016,
+    
+      "generos": ["Ciencia ficción", "Suspenso", "Drama"],
+      "disponible_idiomas": ["Español", "Inglés", "Francés"],
+      "clasificacion": "16+",
+      "Director": "Los hermanos Duffer",
+      "Subtitulos": true,
+      "Numero_de_capitulos": 34,
+      "temporadas": 4,
+      "sinopsis": "Un grupo de niños en un pequeño pueblo de Indiana se enfrenta a fenómenos sobrenaturales y experimentos secretos del gobierno mientras buscan a su amigo desaparecido.",
+      "reparto_principal": [
+        "Winona Ryder",
+        "David Harbour",
+        "Millie Bobby Brown",
+        "Finn Wolfhard"
+      ],
+      "Fecha de estreno": "2016-07-15",
+      "imdb_rating": 8.8
+      
+    },
+    {
+        "contenido_id": 202,
+        "titulo": "La Casa de Papel",
+        "tipo": "Serie",
+        "anio": 2017,
+        "temporadas": 5,
+        "generos": ["Crimen", "Drama", "Suspenso"],
+        "disponible_idiomas": ["Español", "Inglés", "Portugués"],
+        "clasificacion": "18+",
+        "Director": "Álex Pina",
+        "Subtitulos": true,
+        "Numero_de_capitulos": 41,
+        "sinopsis": "Un grupo de criminales lleva a cabo el mayor atraco a la Real Casa de la Moneda de España, bajo la dirección del enigmático 'El Profesor'.",
+        "reparto_principal": [
+          "Álvaro Morte",
+          "Úrsula Corberó",
+          "Pedro Alonso",
+          "Itziar Ituño"
+        ],
+        "Fecha de estreno": "2017-05-02",
+        "imdb_rating": 8.3
+        
+        
+
+    },
+    {
+        "contenido_id": 203,
+        "titulo": "El Juego del Calamar",
+        "tipo": "Serie",
+        "anio": 2021,
+        "temporadas": 1,
+        "generos": ["Drama", "Thriller", "Suspenso"],
+        "disponible_idiomas": ["Español", "Inglés", "Coreano"],
+        "clasificacion": "16+",
+        "Director": "Hwang Dong-hyuk",
+        "Subtitulos": true,
+        "Numero_de_capitulos": 9,
+        "sinopsis": "Un grupo de personas con problemas financieros acepta participar en un misterioso juego de supervivencia, donde los perdedores enfrentan consecuencias mortales.",
+        "reparto_principal": [  
+          "Lee Jung-jae",
+          "Park Hae-soo",
+          "Jung Ho-yeon",
+          "O Yeong-su"
+        ]
+    }
+  ],
+  "ultima_actualizacion": "2025-08-12T18:00:00Z"
+}
